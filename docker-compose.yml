@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: docker-key-value-storage-image
+    restart: always
+    container_name: docker-key-value-storage-container
+    ports:
+      - 8080:8080
