@@ -1,5 +1,11 @@
 # Key value storage
 
+## How to run
+go run main.go
+
+## How to test
+go test
+
 ## Simple API for key value storage with expiration timestamp.
 
 ### End point for saving data:
