@@ -76,6 +76,7 @@ func main() {
 
 // Handle get request for getting data
 func get(w http.ResponseWriter, r *http.Request) {
+
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 
